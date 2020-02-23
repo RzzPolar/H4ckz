@@ -1,0 +1,30 @@
+# TOOLS H4CK SEDERHANA
+clear
+figlet "Tools"
+echo "================================================"
+echo " Author  : RzzPolar
+echo " Youtube : Rzz Polar
+echo " Github  : https://github.com/RzzPolar/H4ckz
+echo "================================================"
+echo
+echo "Pilih Menu Tools nya"
+echo "[1] Crack FB"
+echo "[2] Spammer"
+read -p "[?] Pilih : "pil:
+# BATAS GAN
+if [ $pil = 1 ]
+then
+git clone https://github.com/RzzPolar/HFT
+cd HFT
+nano HFT.py
+python3 HFT.py
+fi
+# BATAS GAN
+if [ $pil = 2 ]
+then
+git clone https://github.com/RzzPolar/spam
+cd spam
+nano spam.py
+python2 spam.py
+fi
+# YANG SUDAH MENGGUNAKAN INI TERIMA KASIH KARNA SUDAH MENGHARGAI KARYA ORANG LAIN , SIPP
